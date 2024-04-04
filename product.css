@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#product-main{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+
+}
+#product-main-left{
+    height: 100%;
+    width: 100%;
+    flex: 0.55;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#product-main-right{
+
+    height: 100%;
+    flex: 0.45;
+}
+
+.image-container{
+    height: 500px;
+
+    
+
+}
+.image-container img{
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+#product-main-right{
+    height: 100;
+    flex: 0.45;
+    padding: 20px;
+}
+
+.image-container{
+    height: 500px;
+}
+
+.image-container img{
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#product-title{
+font-size: 60px;
+font-weight: 600;
+margin:10px 0px;
+}
+
+#breadcrumps{
+    font-size: 12px;
+    color:black
+}
+
+#description{
+    color: black;
+}
+.star img{
+    width: 12px;
+    height: 12px;
+}
+
+#star-container{
+    display: flex;
+}
+
+#review-container{
+    display: flex;
+    gap: 10px;
+    margin:20px 0px;
+}
+
+#review-count{
+    color: black;
+    font-size: 12px;
+}
+
+#price-container{
+    display: flex;
+    align-items: center;
+}
+
+#discount{
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+#price{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.option-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 1px solid #cec7c7;
+}
+
+.option-title{
+    font-weight: 700;
+}
+
+#qty-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dfd2d2;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+#qty-container button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#add-to-cart-btn{
+    width: 100%;
+    padding: 10px;
+    background-color:#000000;
+    color: #ffff;
+    border: 0;
+}
+.sally{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+.sally-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    border-bottom: 2px solid #cec7c7;
+}
+.sally-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    background-color: #cec7c7;
+    padding: 2%;
+}
+.eazi{
+    margin-top: 3%;
+    width: 100%;
+    padding: 1.5%;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.noah{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.naomi{
+    margin-top: 5%;
+}
+.futa{
+    margin-top: 5%;
+
+}
+.futa-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+}
